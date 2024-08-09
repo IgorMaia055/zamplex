@@ -1,0 +1,18 @@
+<!-- função para carregar HTML -->
+<script src="./assets/js/loadHTML.js"></script>
+
+<div id="header-placeholder"></div>
+
+<main>
+    <h2>Bem-vindo à Página Principal</h2>
+    <p>Este é o conteúdo principal da página.</p>
+
+</main>
+
+<div id="footer-placeholder"></div>
+
+<script>
+    // Carregar o header e footer
+    loadHTML('[$ url(header-html) $]', 'header-placeholder');
+    loadHTML('[$ url(footer-html) $]', 'footer-placeholder');
+</script>

@@ -1,0 +1,49 @@
+{
+    "packages": [
+        {
+            "name": "zambiank/zamplate",
+            "version": "v1.0.3",
+            "version_normalized": "1.0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/IgorMaia055/zamplate.git",
+                "reference": "f21f46a71d3c8afd3f34c9ce68883980cc4fad66"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/IgorMaia055/zamplate/zipball/f21f46a71d3c8afd3f34c9ce68883980cc4fad66",
+                "reference": "f21f46a71d3c8afd3f34c9ce68883980cc4fad66",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "time": "2024-07-31T14:02:52+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Zamplate\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Igor Maia",
+                    "email": "igorjobs@zambiank.com"
+                }
+            ],
+            "description": "Zamplate é um motor de templates para PHP que permite criar layouts HTML dinâmicos de forma organizada e segura. Ele utiliza uma sintaxe limpa para separar a lógica da apresentação, facilitando a manutenção do código. Com suporte a variáveis, herança de templates e recursos de segurança integrados, o Zamplate ajuda a construir sites e aplicações web de maneira eficiente e extensível.",
+            "support": {
+                "issues": "https://github.com/IgorMaia055/zamplate/issues",
+                "source": "https://github.com/IgorMaia055/zamplate/tree/v1.0.3"
+            },
+            "install-path": "../zambiank/zamplate"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

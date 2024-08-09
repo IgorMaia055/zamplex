@@ -1,0 +1,19 @@
+{
+    "name": "user/zamrouter",
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/",
+            "Controllers\\": "app/controllers/"
+        },
+        "files": [
+            "src/config.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "IgorMaia055",
+            "email": "igormaia055@gmail.com"
+        }
+    ],
+    "require": {}
+}
